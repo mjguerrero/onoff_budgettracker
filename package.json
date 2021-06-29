@@ -1,0 +1,27 @@
+{
+  "name": "onoff_budgettracker",
+  "version": "1.0.0",
+  "description": "The user will be able to add expenses and deposits to their budget with or without a connection. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjguerrero/onoff_budgettracker.git"
+  },
+  "author": "Maria J. Guerrero",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mjguerrero/onoff_budgettracker/issues"
+  },
+  "homepage": "https://github.com/mjguerrero/onoff_budgettracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.6.1",
+    "mongoose": "^5.13.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  }
+}
